@@ -1,0 +1,30 @@
+url: https://ETC5523-2025.github.io/assignment-4-packages-and-shiny-apps-Melisa-ops/
+
+template:
+  bootstrap: 5
+  bootswatch: minty
+  bootswatch-dark: solar
+  light-switch: true
+
+navbar:
+  title: "quarantinesim"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Reference"
+      href: reference/index.html
+    - text: "Articles"
+      href: articles/index.html
+    - text: "Shiny App (GitHub)"
+      href: "https://github.com/ETC5523-2025/assignment-4-packages-and-shiny-apps-Melisa-ops/tree/main/quarantinesim/inst/app"
+    - text: "License"
+      href: LICENSE.html
+
+
+footer:
+  left: "[quarantinesim](index.html) © 2025 Melisa"
+  right: "Built with [pkgdown](https://pkgdown.r-lib.org/) for Monash University ETC5532"
+
+
+
+

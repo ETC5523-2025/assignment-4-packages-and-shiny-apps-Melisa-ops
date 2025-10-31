@@ -1,0 +1,23 @@
+Package: quarantinesim
+Title: Simulation and Analysis of Quarantine Outbreak Risk
+Version: 0.0.0.9000
+Authors@R: 
+    person("Melisa", "Melisa", , "meli0013@student.monash.edu", role = c("aut", "cre"))
+Description: Contains a cleaned dataset of quarantine outbreak simulations
+    parameterised by R0, vaccine effectiveness, and vaccination coverage.
+    Includes tools to explore outbreak probability and estimated time to
+    outbreak (50% and 95%) through an interactive Shiny app.
+Imports:
+    shiny,
+    dplyr,
+    ggplot2
+Suggests:
+    knitr,
+    rmarkdown
+License: MIT + file LICENSE
+Encoding: UTF-8
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
